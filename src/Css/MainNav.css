@@ -1,0 +1,24 @@
+.initials{
+    font-family: 'Bevan', cursive;
+    font-size: 1.75rem !important;
+    color: #E5A027 !important;
+    margin-left: 1rem;
+}
+
+
+.top-nav{
+    padding:2rem 1rem !important;
+
+}
+
+.top-links{
+    color: #FFF !important;
+}
+
+.top-links:hover{
+    color: #E5A027 !important;
+}
+
+.top-nav-links{
+    padding-right: 5rem;
+}

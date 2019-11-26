@@ -1,0 +1,38 @@
+.home-page-div{
+    height: 100%;
+}
+
+.intro{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+  url("https://images.unsplash.com/photo-1541240290619-3f2fad86473d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80") center/cover;
+    padding-bottom: 12.75rem;
+}
+
+.homepage-title{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    font-size: 5rem;
+    color: #FFF;
+}
+
+.homepage-position{
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #FFF;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.img-div{
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.img-warp{
+    width: 12rem;
+
+}

@@ -1,0 +1,14 @@
+.bio-wrapper{
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.bio-title{
+    font-size: 3rem;
+    color: #000;
+}
+
+.bio{
+    color: #000;
+    font-size: 1.5rem;
+}
