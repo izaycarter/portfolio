@@ -5,7 +5,7 @@
 .intro{
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
   url("https://images.unsplash.com/photo-1541240290619-3f2fad86473d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80") center/cover;
-    padding-bottom: 12.75rem;
+    padding-bottom: 18rem;
 }
 
 .homepage-title{
@@ -19,8 +19,9 @@
 .homepage-position{
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 2rem;
     color: #FFF;
+    margin-bottom: 1rem;
 }
 
 img{
@@ -30,7 +31,7 @@ img{
 
 .img-div{
     justify-content: center;
-    padding-top: 1.5rem;
+    padding-top: 8rem;
 }
 .img-warp{
     width: 12rem;

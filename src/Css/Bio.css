@@ -1,14 +1,27 @@
 .bio-wrapper{
-    padding: 2rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     flex-direction: column;
+    background-color: #FFF;
+
+}
+
+.bio-box{
+    flex-direction: column;
+    padding-left: 7.25rem;
+    padding-right: 7.25rem;
+    box-shadow: 8px 1.5px 2.5px #E5E7E9;
 }
 
 .bio-title{
     font-size: 3rem;
-    color: #000;
+    color: #E48D00;
+
+
 }
 
 .bio{
     color: #000;
     font-size: 1.5rem;
+    text-align: center;
 }

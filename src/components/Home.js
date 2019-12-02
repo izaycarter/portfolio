@@ -2,16 +2,26 @@ import React, {Component} from 'react';
 import "../Css/Home.css";
 import MainNav from "./MainNav";
 import Bio from "./Bio";
+import Experience from "./Experience";
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import profile from "../img/profile.png";
 
 
 class Home extends Component{
 
+    constructor(props){
+        super(props);
+        this.state={
+        }
+
+    }
+
     render(){
         return(
             <div className="home-page-div row ">
                 <div className="intro col-12">
-                    <MainNav/>
                     <div className="img-div d-flex">
                         <div className="img-warp d-flex">
                             <img  src={profile} alt="Isaiah Carter"/>
@@ -21,6 +31,7 @@ class Home extends Component{
                     <span className="homepage-position d-flex"> Full Stack Developer</span>
                 </div>
                 <Bio/>
+                <Experience />
 
             </div>
         )

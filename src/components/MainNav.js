@@ -3,16 +3,22 @@ import {Navbar,Nav} from 'react-bootstrap';
 import "../Css/MainNav.css";
 
 class MainNav extends Component{
+    constructor(props){
+       super(props);
+       this.state={
+
+       }
+   }
+
 
     render(){
         return (
-            <Navbar className="top-nav"  expand="lg">
+            <Navbar className="top-nav"  expand="lg" fixed="top">
               <Navbar.Brand className="initials" href="/">I.C</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto top-nav-links">
-                  <Nav.Link className="top-links" href="/">Home</Nav.Link>
-                  <Nav.Link className="top-links" href="/contact">Contact</Nav.Link>
+                  <button className="top-links" onClick={this.props.onClick} >Contact</button>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
