@@ -19,6 +19,7 @@ class MainNav extends Component{
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto top-nav-links">
                   <button className="top-links" onClick={this.props.onClick} >Contact</button>
+                  <Nav.Link href="#about-me">About Me</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
