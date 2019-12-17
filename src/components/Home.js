@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "../Css/Home.css";
 import MainNav from "./MainNav";
 import Bio from "./Bio";
-import Experience from "./Experience";
+import Skills from "./Skills";
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -31,7 +31,7 @@ class Home extends Component{
                     <span className="homepage-position d-flex"> Full Stack Developer</span>
                 </div>
                 <Bio/>
-                <Experience />
+                <Skills />
 
             </div>
         )

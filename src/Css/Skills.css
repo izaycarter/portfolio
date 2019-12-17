@@ -1,4 +1,4 @@
-.experience-wrapper{
+.skill-wrapper{
     padding-top: 9rem;
     padding-bottom: 9rem;
     flex-direction: column;
@@ -7,13 +7,13 @@
 
 }
 
-.experience-box{
+.skill-title-box{
     flex-direction: column;
     padding-left: 7.25rem;
     padding-right: 7.25rem;
 }
 
-.experience-title{
+.skill-title{
     font-size: 3rem;
     color: #FFF;
 
@@ -26,14 +26,18 @@
     text-align: center;
 }
 
-.list-experience{
+.list{
+    padding-left: 7.25rem;
+    padding-right: 7.25rem;
+    flex-wrap: wrap;
+}
+
+.skill-item{
     color: #FFF;
     font-size: 1.5rem;
+    display: flex;
+    margin: 3.5rem;
+    
 }
 
 
-@media (max-width: 992px) {
-    .list{
-        flex-direction: column;
-    }
-}
