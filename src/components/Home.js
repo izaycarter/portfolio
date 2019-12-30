@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import "../Css/Home.css";
-import MainNav from "./MainNav";
 import Bio from "./Bio";
 import Skills from "./Skills";
 
