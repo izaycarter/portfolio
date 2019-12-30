@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import "../Css/Home.css";
-import Bio from "./Bio";
+import About from  "./About"
 import Skills from "./Skills";
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -29,7 +29,7 @@ class Home extends Component{
                     <span className="homepage-title d-flex">Isaiah Carter</span>
                     <span className="homepage-position d-flex"> Full Stack Developer</span>
                 </div>
-                <Bio/>
+                <About/>
                 <Skills />
 
             </div>

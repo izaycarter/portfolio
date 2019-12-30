@@ -18,8 +18,9 @@ class MainNav extends Component{
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto top-nav-links">
-                  <button className="top-links" onClick={this.props.onClick} >Contact</button>
-                  <Nav.Link className="top-links" href="#about-me">About Me</Nav.Link>
+                  <Nav.Link className="top-links" onClick={this.props.onClick} >Contact</Nav.Link>
+                  <Nav.Link className="top-links" href="#About">About</Nav.Link>
+                  <Nav.Link className="top-links" href="#Skills">Skills</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>

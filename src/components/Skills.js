@@ -13,7 +13,7 @@ class Skills extends Component{
 
     render(){
         return(
-            <div className="skill-wrapper d-flex col-12">
+            <div id="Skills" className="skill-wrapper d-flex col-12">
                 <div className="skill-title-box d-flex">
                 <p className="skill-title justify-content-center d-flex">Skills</p>
                 </div>
