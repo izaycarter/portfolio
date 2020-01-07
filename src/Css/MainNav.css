@@ -26,18 +26,3 @@
     align-items: center;
     font-size: 20px;
 }
-.icon{
-    color: #E5A027;
-    font-size: 2rem;
-}
-
-.icon:hover{
-    box-shadow:0px 0px 25px #E5E7E9 !important;
-
-}
-
-.icon-a{
-    align-items: center;
-    padding-right: .5rem;
-    padding-left: .5rem;
-}

@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import "../Css/Home.css";
 import About from  "./About"
 import Skills from "./Skills";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -28,6 +30,10 @@ class Home extends Component{
                     </div>
                     <span className="homepage-title d-flex">Isaiah Carter</span>
                     <span className="homepage-position d-flex"> Full Stack Developer</span>
+                    <div className="icons-div d-flex justify-content-center">
+                        <a href="http://www.linkedin.com/in/isaiah-c-gvl" rel="noopener noreferrer" target="_blank" className="icon-a d-flex pl-2" ><FontAwesomeIcon className="icon" icon={faLinkedin} size="lg"/></a>
+                        <a href="https://github.com/izaycarter" rel="noopener noreferrer" target="_blank" className="icon-a d-flex pl-2"><FontAwesomeIcon className="icon" icon={faGithub} size="lg" /></a>
+                    </div>
                 </div>
                 <About/>
                 <Skills />
