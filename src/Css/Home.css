@@ -39,14 +39,10 @@ img{
 }
 
 .icon{
-    color: #E5A027;
+    color: #E58F27;
     font-size: 4rem;
 }
 
-.icon:hover{
-    box-shadow:0px 0px 25px #E5E7E9 !important;
-
-}
 
 .icon-a{
     align-items: center;
