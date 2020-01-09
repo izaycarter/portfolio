@@ -8,6 +8,7 @@
 
 .top-nav{
     padding:2rem 1rem !important;
+    background: #0a0a0a;
 
 }
 
@@ -18,11 +19,21 @@
 }
 
 .top-links:hover{
-    box-shadow:0px 0px 25px #E5E7E9 !important;
+    color: #000 !important;
+    background-color: #E58F27 !important;
+
 }
 
 .top-nav-links{
     padding-right: 5rem;
     align-items: center;
     font-size: 20px;
+}
+
+.navbar-light .navbar-toggler{
+    background-color:#E58F27;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-color: #E58F27;
 }

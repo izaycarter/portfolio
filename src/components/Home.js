@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import "../Css/Home.css";
-import About from  "./About"
+import About from  "./About";
 import Skills from "./Skills";
+import Projects from "./Projects";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import profile from "../img/profile.png";
 
 
@@ -37,6 +36,7 @@ class Home extends Component{
                 </div>
                 <About/>
                 <Skills />
+                <Projects />
 
             </div>
         )

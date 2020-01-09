@@ -21,6 +21,7 @@ class MainNav extends Component{
                   <Nav.Link className="top-links" onClick={this.props.onClick} >Contact</Nav.Link>
                   <Nav.Link className="top-links" href="#About">About</Nav.Link>
                   <Nav.Link className="top-links" href="#Skills">Skills</Nav.Link>
+                  <Nav.Link className="top-links" href="#Projects">Projects</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
