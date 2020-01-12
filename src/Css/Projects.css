@@ -1,0 +1,15 @@
+.projects-wrapper{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    flex-direction: column;
+}
+
+.projects-title-box{
+    flex-direction: column;
+    padding-left: 7.25rem;
+    padding-right: 7.25rem;
+}
+
+.projects-title{
+    font-size: 3rem;
+}
