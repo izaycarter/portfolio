@@ -12,4 +12,19 @@
 
 .projects-title{
     font-size: 3rem;
+    color: #E58F27;
+}
+
+.project-box{
+    flex-direction: column;
+    text-align: center;
+}
+
+.tech-list{
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0;
 }
