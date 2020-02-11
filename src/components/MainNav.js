@@ -22,6 +22,7 @@ class MainNav extends Component{
                   <Nav.Link className="top-links" href="#About">About</Nav.Link>
                   <Nav.Link className="top-links" href="#Skills">Skills</Nav.Link>
                   <Nav.Link className="top-links" href="#Projects">Projects</Nav.Link>
+                  <Nav.Link className="top-links" href="https://docs.google.com/document/d/1DAcveATifSmE5O778HTm1Kxszayv2lsTfSp6Q2KxUKQ/edit?usp=sharing" target="_blank" >Resume</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
