@@ -20,6 +20,18 @@
     text-align: left !important;
 }
 
+.project-btn{
+    margin: 1rem;
+}
+
+.project-link{
+    color:#FFF;
+}
+
+.project-link:hover{
+    color: #E58F27;
+}
+
 .project-box{
     flex-direction: column;
     text-align: center;
