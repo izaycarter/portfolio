@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import MainNav from "./MainNav";
 import Home from "./Home";
 import Contact from "./Contact";
+import "../Css/Base.css";
 
 class Base extends Component{
     constructor(props){

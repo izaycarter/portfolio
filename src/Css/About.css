@@ -1,6 +1,6 @@
 .bio-wrapper{
-    padding-top: 9rem;
-    padding-bottom: 9rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
     flex-direction: column;
     background-color: #FFF;
 
@@ -8,8 +8,6 @@
 
 .bio-box{
     flex-direction: column;
-    padding-left: 7.25rem;
-    padding-right: 7.25rem;
     box-shadow: 8px 1.5px 2.5px #E5E7E9;
 }
 
